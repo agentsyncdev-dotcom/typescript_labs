@@ -1,0 +1,5 @@
+export interface IExchangeRateResponse {
+    base_code: string;
+    rates: Record<string, number>;
+    time_last_update_utc: string;
+}

@@ -4,7 +4,7 @@ import { ApiError } from "./services/ApiError.js";
 import { IProduct } from "./interfaces/Iproduct.js";
 import { IOrderItem } from "./interfaces/IOrderItem.js";
 
-// process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 console.log("Lab11 Started");
 
