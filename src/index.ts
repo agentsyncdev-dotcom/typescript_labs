@@ -2,8 +2,7 @@
 function greetClient(name: string): string {
   return `Hello, ${name}!`;
 }
-console.log(greetClient("VishnuKumar"));
-
+console.log(greetClient("PG"));
 
 
 
